@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let ary = [12, 4, 74, 32, 89, 62, 90, 31];
+        // document.write(ary + "  " + "<br>");
+
+        // let a = ary.map(test);
+        // document.write(a);
+
+        // function test(x) {
+        //     return x * 5;
+
+        // }
+
+        // *******************************************
+
+        let ary = [
+            { name: 'Afnan', lname: 'K3han', Address: 'Peshawar' },
+            { name: 'Kashif', lname: 'Rehman', Address: 'Islamabad' },
+            { name: 'Talha', lname: 'Usman', Address: 'Mardan' },
+            { name: 'Numan', lname: 'Noor', Address: 'Swbi' }
+
+        ];
+
+        let a = ary.map(test);
+        document.write(a);
+
+        function test(x) {
+            return x.name + "   " + x.lname + " " + x.Address + "<br>";
+        }
+
+    </script>
+</body>
+
+</html>
